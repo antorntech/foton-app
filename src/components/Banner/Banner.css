@@ -1,0 +1,23 @@
+.banner-button #readMoreBtn {
+  background-color: rgb(255, 138, 115);
+  color: #fff;
+  letter-spacing: 2px;
+  border: rgb(255, 138, 115);
+}
+
+.banner-button #readMoreBtn:hover {
+  box-shadow: rgba(214, 113, 18, 0.726) 0px 25px 20px -20px;
+  border: rgb(255, 138, 115);
+}
+
+.banner-button #contactUsBtn {
+  background-color: rgb(49, 107, 235);
+  color: #fff;
+  letter-spacing: 2px;
+  border: rgb(255, 138, 115);
+}
+
+.banner-button #contactUsBtn:hover {
+  box-shadow: rgba(49, 107, 235, 0.726) 0px 25px 20px -20px;
+  border: rgb(255, 138, 115);
+}

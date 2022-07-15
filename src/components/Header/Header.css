@@ -1,0 +1,46 @@
+.navbar {
+  position: relative;
+}
+
+.navbar ul li {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #57468b;
+}
+
+.navbar ul li a {
+  transition: all 0.2s linear;
+}
+
+.navbar ul li a:hover {
+  background-color: transparent;
+  color: #ff8a73;
+}
+
+.endMenu li i {
+  transition: all 0.2s linear;
+  font-size: 25px;
+}
+
+.endMenu li i:hover {
+  color: #ff8a73;
+  cursor: pointer;
+}
+
+.side-drawer {
+  width: 300px;
+  height: 100vh;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  top: 0;
+  right: -420px;
+  display: none;
+  position: absolute;
+  transition: all 0.5s linear;
+}
+
+.crossBtn i {
+  background-color: #ff8a73;
+  cursor: pointer;
+}
